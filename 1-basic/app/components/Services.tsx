@@ -68,9 +68,7 @@ const Services = () => {
       duration:0.6
     },
   ];
-  const getValByIndex= (index)=>{
-
-  }
+ 
 
   return (
     <div className='w-full flex flex-col items-center px-6 md:px-20 lg:px-40 my-20 pt-10 gap-6'>
