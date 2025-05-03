@@ -7,7 +7,17 @@ import { FaWhatsapp } from 'react-icons/fa'
 import { AnimatePresence, easeInOut, motion } from "motion/react"
 import { UpdateFollower } from 'react-mouse-follower'
 
-const headPhoenData = [
+
+interface HeadphoneType{
+    id: number;
+    title: string;
+    image: string;
+    price: string;
+    modal: string;
+    bgColor: string;
+    subtitle: string;
+} 
+const headPhoenData : HeadphoneType[] = [
     { id: 1, title: 'Headphone Wireless 1', image: headPhone1, price: "$100", modal: "Modal Brown", bgColor: "#8b5958", subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },
     { id: 2, title: 'Headphone Wireless 2', image: headPhone2, price: "$100", modal: "Lime Green", bgColor: "#638153", subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },
     { id: 3, title: 'Headphone Wireless 3', image: headPhone3, price: "$100", modal: "Ocean Blue", bgColor: "#5d818c", subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },
@@ -46,7 +56,7 @@ const fade = (delay: number) => {
 
 const Hero = () => {
     const [active, setActive] = useState(headPhoenData[0]);
-    const handleActiveData = (data) => {
+    const handleActiveData = (data:HeadphoneType) => {
         setActive(data)
     }
     return (

@@ -1,13 +1,11 @@
-import React from 'react'
+
 import icon1 from '../../assets/icons/obj1.png'
 import icon2 from '../../assets/icons/obj2.png'
 import icon3 from '../../assets/icons/obj3.png'
-import icon4 from '../../assets/icons/obj4.png'
-import { delay } from 'motion'
 import { UpdateFollower } from 'react-mouse-follower'
 import {motion}  from "motion/react"
 
-export const fade = (delay)=>{
+export const fade = (delay:number)=>{
     return {
         hidden:{
             opacity:0,

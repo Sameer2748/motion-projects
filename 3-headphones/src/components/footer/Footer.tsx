@@ -1,6 +1,4 @@
-import React from 'react'
-import { FaMobile } from 'react-icons/fa'
-import { FaMobileButton } from 'react-icons/fa6'
+
 import { UpdateFollower } from 'react-mouse-follower'
 
 // create a grid footer 

@@ -1,9 +1,8 @@
-import React from 'react'
+
 import Blog1 from "../../assets/blogs/blog1.jpg"
 import Blog2 from "../../assets/blogs/blog2.jpg"
 import Blog3 from "../../assets/blogs/blog3.jpg"
 import Blog4 from "../../assets/blogs/blog4.jpg"
-import {motion} from "motion/react"
 import { UpdateFollower } from 'react-mouse-follower'
 
 

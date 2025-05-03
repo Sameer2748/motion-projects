@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { UpdateFollower } from 'react-mouse-follower'
 
 const BannerBottom = () => {
